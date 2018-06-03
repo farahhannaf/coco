@@ -10,24 +10,29 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".MainActivity" />
-        <activity android:name=".Clothes_coll" />
-        <activity android:name=".Info_clothes">
 
-        </activity>
+        <activity android:name=".Info_clothes" />
         <activity
             android:name=".navigation"
             android:label="@string/title_activity_navigation"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".Category" />
-        <activity android:name=".category2" />
-        <activity android:name=".Comment" />
-        <activity android:name=".Checkout">
+        <activity android:name=".Category">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".category2" >
+        </activity>
+        <activity android:name=".Clothes_coll">
+        </activity>
+
+        <activity android:name=".Comment" />
+        <activity android:name=".Checkout">
+
+        </activity>
+        <activity android:name=".login"></activity>
     </application>
 
 </manifest>
